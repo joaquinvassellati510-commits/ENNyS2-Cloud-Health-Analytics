@@ -10,3 +10,5 @@ WHERE Nivel_educacion_total IS NOT NULL
   AND TRIM(Nivel_educacion_total) != ''
 GROUP BY Nivel_educacion_total
 ORDER BY prevalencia_obesidad DESC;
+
+--Se eliminaron registros sin información válida en nivel educativo para evitar sesgos en la estimación de prevalencias.
