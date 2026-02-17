@@ -8,10 +8,10 @@ This repository documents my work analyzing public health microdata to build cle
 
 The goal is to simulate a real-world Data Analyst workflow:
 
-● 🧹 Cleaning and validating raw survey data
-● 📐 Creating health indicators (BMI, overweight, obesity)
-● 🌎 Exploring differences by region, sex, and education level
-● ☁️ Preparing structured datasets for cloud analysis (BigQuery – in progress)
+●  Cleaning and validating raw survey data
+●  Creating health indicators (BMI, overweight, obesity)
+●  Exploring differences by region, sex, and education level
+●  Preparing structured datasets for cloud analysis (BigQuery – in progress)
 
 I’m focusing not only on the final numbers, but on the full analytical process.
 
