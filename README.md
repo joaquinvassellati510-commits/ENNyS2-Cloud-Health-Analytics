@@ -1,63 +1,97 @@
-🥗 ENNyS2 Cloud Health Analytics
+ENNyS2 Cloud Health Analytics
 
-End-to-End Data Project | Public Health & Nutrition | BigQuery + Looker Studio
+Public Health Data Project | Python · BigQuery · Looker Studio
 
- Project Overview
+Overview
 
-This project analyzes Argentina’s National Survey on Nutrition and Health (ENNyS2) to build a cloud-based analytics pipeline that transforms raw public health microdata into actionable nutrition and epidemiological indicators for policy makers, health professionals, and NGOs.
+This project analyzes microdata from Argentina’s National Survey on Nutrition and Health (ENNyS2) to build a structured analytics workflow that transforms raw survey data into clear and interpretable public health indicators.
 
-The project simulates a real-world data analyst role in the public health and health-tech sector, focusing on data quality, transformation, modeling, and visualization in a cloud environment.
+The objective is to simulate the real workflow of a junior data analyst working with public health data:
 
-Problem Statement
+Explore and validate raw microdata
 
-Public health datasets in Argentina are often underutilized due to:
+Clean and transform variables
 
-High complexity and fragmentation of raw microdata
+Define measurable KPIs
 
-Lack of standardized analytical models for nutrition indicators
+Prepare structured datasets for cloud analytics
 
-Limited access to cloud-based dashboards for decision-makers
+The repository documents the full analytical process step by step.
 
-This project addresses these gaps by building a scalable, cloud-native analytics pipeline that converts raw ENNyS2 data into structured, documented, and visual health intelligence.
+Project Goal
 
- Key Questions
+Public health datasets are often complex and difficult to interpret without technical processing.
 
-What is the prevalence of undernutrition, overweight, and obesity by region and age group?
+This project focuses on:
 
-How do socioeconomic variables correlate with dietary patterns?
+Transforming raw survey data into structured analytical datasets
 
-Which provinces show the highest nutritional risk indicators?
+Building reproducible indicators for overweight and obesity
 
-How can cloud analytics improve access to public health insights?
+Exploring differences by region, sex, and education level
+
+Preparing the dataset for cloud modeling and dashboard visualization
+
+Preliminary Results – Adults (18+)
+
+After filtering and cleaning 15,535 adult records:
+
+36.1% present excess weight (BMI ≥ 25)
+
+17.7% present obesity (BMI ≥ 30)
+
+Regional differences were observed, with Patagonia showing the highest prevalence and GBA the lowest.
+
+Higher obesity prevalence was observed among women.
+
+Obesity rates were also higher among lower educational levels.
+
+Note: Indicators were calculated without applying survey weights. Values represent sample proportions.
 
 Tech Stack
 
-Python (Google Colab) – Data cleaning & preprocessing
+Python (pandas, matplotlib) – Data cleaning and KPI construction
+Google Colab – Development environment
+Google BigQuery – Cloud data warehouse (in progress)
+Looker Studio – Dashboard visualization (in progress)
+GitHub – Version control and documentation
 
-Google BigQuery – Cloud data warehouse & SQL analytics
+Skills Demonstrated
 
-Looker Studio – Interactive dashboards
+Data cleaning and preprocessing with pandas
 
-GitHub – Version control & project documentation
+Feature engineering (BMI-based indicators)
 
-Expected Outputs
+Grouped aggregations and KPI construction
 
-Cleaned and documented cloud datasets
+Analytical interpretation of health indicators
 
-Analytical SQL views for key nutrition and health KPIs
+Structured project documentation
 
-Interactive Looker Studio dashboard
+Reproducible workflow design
 
-Reproducible data pipeline documentation
+Project Structure
 
-Public portfolio for Data Analyst / Health Analytics roles
+notebooks/ → Data exploration and transformation
+docs/ → Dataset description and KPI documentation
+sql/ → Analytical SQL views (BigQuery layer)
+dashboard/ → Visualization assets
 
-##Project Timeline##
+Current Status
 
-February 2026 – 4-week structured development cycle
-Daily progress documented in commits and project logs
+Data exploration completed
+Adult filtering and KPI construction completed
+Regional and socioeconomic comparisons completed
+Cloud modeling in BigQuery in progress
+Interactive dashboard development in progress
 
-📎 Data Source
+Data Source
 
 ENNyS2 – National Survey on Nutrition and Health
-Ministry of Health, Argentina
+Ministry of Health – Argentina
+
+About
+
+This project reflects my interest in combining data analytics, nutrition, and cloud tools to generate structured and actionable public health insights.
+
+It is part of my professional portfolio as I build my career in Data Analytics with a focus on health and evidence-based decision making.
