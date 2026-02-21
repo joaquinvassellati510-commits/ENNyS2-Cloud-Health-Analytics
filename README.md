@@ -2,7 +2,7 @@ ENNyS2 – Public Health Data Analysis
 
 📊 Proyecto
 
-Este proyecto analiza datos de las Encuesta Nacional de Nutricion y Salud (ENNyS2) con el objetivo de contruir indicadores clave sobre exceso de peso y obesidad en poblaciones adulta de Argentina.
+Este proyecto analiza datos de las Encuesta Nacional de Nutricion y Salud (ENNyS2) con el objetivo de construir indicadores clave sobre exceso de peso y obesidad en poblaciones adulta de Argentina.
 Tiene un enfoque que simula trabajo de Data Analyst Junior, cubriendo:
 
 • Exploracion y limpieza de datos.
@@ -15,7 +15,7 @@ Tiene un enfoque que simula trabajo de Data Analyst Junior, cubriendo:
 OBJETIVOS
 • Calcular prevalencia de exceso de peso y obesidad.
 • Analizar diferencias por region.
-• Evaluar realcion con nivel educativo.
+• Evaluar relacion con nivel educativo.
 • Segmentar resultados por sexo.
 
 
