@@ -21,6 +21,7 @@ OBJETIVOS
 
 
 ESTRUCTURA DEL REPOSITORIO
+
 📂/docs
 Contiene documentacion del dataset: diccionario, descrpcion, origen y estructura de datos.
 
