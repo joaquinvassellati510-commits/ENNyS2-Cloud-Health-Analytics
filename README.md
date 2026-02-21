@@ -1,40 +1,90 @@
 ENNyS2 – Public Health Data Analysis
 
-📊 Data analysis project based on Argentina’s National Survey on Nutrition and Health (ENNyS2).
+📊 Proyecto
 
-About this project
+Este proyecto analiza datos de las Encuesta Nacional de Nutricion y Salud (ENNyS2) con el objetivo de contruir indicadores clave sobre exceso de peso y obesidad en poblaciones adulta de Argentina.
+Tiene un enfoque que simula trabajo de Data Analyst Junior, cubriendo:
 
-This repository documents my work analyzing public health microdata to build clear and understandable indicators related to overweight and obesity in the adult population.
+• Exploracion y limpieza de datos.
+• Transformacion y calculo de KPIs.
+• Consultas SQL en BigQuery.
+• Visualizacion en Looker Studio.
 
-The goal is to simulate a real-world Data Analyst workflow:
+OBJETIVOS
 
-●  Cleaning and validating raw survey data
-●  Creating health indicators (BMI, overweight, obesity)
-●  Exploring differences by region, sex, and education level
-●  Preparing structured datasets for cloud analysis (BigQuery – in progress)
+• Calcular prevalencia de exceso de peso y obesidad.
+• Analizar diferencias por region.
+• Evaluar realcion con nivel educativo.
+• Segmentar resultados por sexo.
 
-I’m focusing not only on the final numbers, but on the full analytical process.
+ESTRUCTURA DEL REPOSITORIO
 
-Preliminary findings (Adults 18+)
+/docs
+Contiene documentacion del dataset: diccionario, descrpcion, origen y estructura de datos.
 
-📌 Sample analyzed: 15,535 records
+/notebooks
+• Exploracion inicial.
+• Limpieza de datos.
+• Contruccion de KPIs.
 
-●  36% show excess weight
-●  17.7% show obesity
+/sql
+Consultas utilizadas en BigQuery para:
+• Indicadores generales.
+• Analisis por sexo.
+• Analisis por region.
+• Analisis por nivel educativo.
 
-There are noticeable differences across regions and education levels.
+/dashboard
+Capturas y version exportada del dashboard final en Looker Studio.
 
-All calculations are currently unweighted (simple proportions).
+README.md
+Documeto principal del proyecto.
 
-Tools used
 
-●  Python (pandas)
-●  Google Colab
-●  BigQuery (in progress)
-●  GitHub for version control and documentation
+PROCESO DE TRABAJO
 
-Professional objective
+1. Revision del diccionario de datos y comprension de variables antropometricas.
+2. Limpieza de valores faltantes y estandarizados de categorias.
+3. Contruccion de indicadores:
+   • IMC promedio.
+   • Porcentaje de exceso de peso.
+   • Porcentaje de obesidad.
+   
+4. Segmentacion por variables sociodemograficas.
+5. Visualizacion de resultados en dashboard interactivo.
 
-🎯 I’m building this project as part of my portfolio for entry-level Data Analyst roles, especially in health, public policy, or data-driven social impact organizations.
 
-The intention is to demonstrate how I approach real datasets: from raw data to structured insights.
+RESULTADOS PRINCIPALES
+
+• Se observa una prevalencia significativa de exceso de peso en poblacion adulta
+• Existen diferencias regionales relevantes
+• El nivel educativo muestra asociacion con indicadores de obesidad
+
+Los valores se encuentarn en el dashboard y consultas SQL.
+
+
+HERRAMIENTAS UTILIZADAS
+
+• Python (Pandas, Numpy).
+• SQL (BigQuery).
+• Looker Studio.
+
+
+COMO REPRODUCIR EL PROYECTO
+
+1. Clonar repositorio.
+2. Ejecutar los notebooks en orden (exploracion -> limpieza -> KPIs)
+3. Ejecutar las consultas SQL en BigQuery
+4. Visualizar resultados en el Dashboard
+
+
+AUTOR
+
+Joaquin Vassellati
+• Data Analytics - Salud y Nutricion
+   
+
+
+
+
+
