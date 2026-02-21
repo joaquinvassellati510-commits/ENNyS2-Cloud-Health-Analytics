@@ -38,9 +38,24 @@ Consultas utilizadas en BigQuery para:
 • Analisis por nivel educativo.
 
 📂/dashboard
-Capturas y version exportada del dashboard final en Looker Studio.
+El dashboard presenta los principales indicadores de exceso de peso y obesidad en adultos a partir de ENNyS2, utilizando BigQuery como data warehouse y Looker Studio para visualización.
 
-Dashboard interactivo: https://lookerstudio.google.com/u/0/reporting/1ca27f22-3a85-4df5-9ccc-7b92e4398485/page/j2MpF/edit
+### Exceso de peso por región
+
+![Exceso por región](dashboard/exceso_region.png)
+
+### Exceso de peso por nivel educativo y sexo
+
+![Educación y género](dashboard/educacion_genero_exceso.png)
+
+### IMC promedio y obesidad por región (gráfico combinado)
+
+![Gráfico combinado](dashboard/grafico_combinado.png)
+
+Dashboard interactivo:  
+🔗 https://lookerstudio.google.com/u/0/reporting/1ca27f22-3a85-4df5-9ccc-7b92e4398485/page/j2MpF/edit
+
+
 
 README.md
 Documeto principal del proyecto.
