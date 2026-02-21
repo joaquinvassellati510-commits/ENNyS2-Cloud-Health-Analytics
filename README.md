@@ -19,22 +19,22 @@ OBJETIVOS
 
 ESTRUCTURA DEL REPOSITORIO
 
-/docs
+📂/docs
 Contiene documentacion del dataset: diccionario, descrpcion, origen y estructura de datos.
 
-/notebooks
+📂/notebooks
 • Exploracion inicial.
 • Limpieza de datos.
 • Contruccion de KPIs.
 
-/sql
+📂/sql
 Consultas utilizadas en BigQuery para:
 • Indicadores generales.
 • Analisis por sexo.
 • Analisis por region.
 • Analisis por nivel educativo.
 
-/dashboard
+📂/dashboard
 Capturas y version exportada del dashboard final en Looker Studio.
 
 README.md
