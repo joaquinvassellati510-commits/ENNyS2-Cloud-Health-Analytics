@@ -40,6 +40,8 @@ Consultas utilizadas en BigQuery para:
 📂/dashboard
 Capturas y version exportada del dashboard final en Looker Studio.
 
+Dashboard interactivo: https://lookerstudio.google.com/u/0/reporting/1ca27f22-3a85-4df5-9ccc-7b92e4398485/page/j2MpF/edit
+
 README.md
 Documeto principal del proyecto.
 
